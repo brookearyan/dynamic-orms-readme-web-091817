@@ -1,8 +1,10 @@
 require_relative "../config/environment.rb"
 require 'active_support/inflector'
 
-class Song
 
+#brooke is done
+
+class Song
 
   def self.table_name
     self.to_s.downcase.pluralize
@@ -59,6 +61,3 @@ class Song
   end
 
 end
-
-
-
